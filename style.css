@@ -2,10 +2,25 @@ body {
     background-color: dimgray;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .h1 {
     color: gray;
     font-size: 70px;
     padding: 100px;;
+}
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 3em;
+    width: 5em;
+}
+.result {
+    height: auto;
+    width: auto;
+    display: flex;
 }
